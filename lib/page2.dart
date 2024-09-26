@@ -26,28 +26,29 @@ class page2 extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 50.0,
-              backgroundImage: AssetImage("assets/self.jpeg"),
+              backgroundImage: AssetImage("assets/self.jpg"),
             ),
             const SizedBox(height: 10),
             const Text(
-              'Fajar Fauzian',
+              'Okta Haris',
               style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
-                  color: Color.fromARGB(248, 133, 100, 39)),
+                color: Color.fromARGB(255, 26, 33, 48),
+              ),
             ),
             const SizedBox(height: 20),
-
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 255, 229, 134),
+                color: const Color.fromARGB(255, 26, 33, 48),
+                // ini hitam
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: [
                   BoxShadow(
                     color: const Color.fromARGB(90, 50, 50, 50),
                     blurRadius: 4,
-                    offset: Offset(3, 4), 
+                    offset: Offset(3, 4),
                   ),
                 ],
               ),
@@ -59,17 +60,20 @@ class page2 extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
+                      color: Colors.white,
                     ),
                   ),
                   SizedBox(height: 8),
                   Text(
                     'Im a student at SMK Wikrama Bogor, specializing in Frontend and Web Development. I work with JavaScript, PHP, Vue.js, React.js, Next.js, and Laravel, with experience in building user-friendly web projects.',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
                   ),
                 ],
               ),
             ),
             const SizedBox(height: 20),
-
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
@@ -106,17 +110,17 @@ class page2 extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 25),
-
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 255, 229, 134), 
+                  color: const Color.fromARGB(255, 26, 33, 48),
+
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: [
                   BoxShadow(
                     color: const Color.fromARGB(90, 50, 50, 50),
                     blurRadius: 4,
-                    offset: Offset(3, 4), 
+                    offset: Offset(3, 4),
                   ),
                 ],
               ),
@@ -128,10 +132,10 @@ class page2 extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
+                      color: Colors.white,
                     ),
                   ),
                   const SizedBox(height: 20),
-
                   skillCard('HTML', 0.9),
                   const SizedBox(height: 20),
                   skillCard('CSS', 0.8),
@@ -177,7 +181,8 @@ class page2 extends StatelessWidget {
           LinearProgressIndicator(
             value: level,
             backgroundColor: Colors.grey[300],
-            color: const Color.fromARGB(255, 111, 74, 0),
+              color: const Color.fromARGB(255, 26, 33, 48),
+
           ),
         ],
       ),
