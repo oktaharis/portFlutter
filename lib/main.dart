@@ -37,7 +37,7 @@ class home extends StatelessWidget {
                     children: <Widget>[
                       CircleAvatar(
                           radius: 100.0,
-                          backgroundImage: AssetImage("assets/self.jpg")),
+                          backgroundImage: AssetImage("assets/okta.jpg")),
                       Text("Okta Haris",
                           textAlign: TextAlign.center,
                           style: TextStyle(
@@ -59,10 +59,10 @@ class home extends StatelessWidget {
                         },
                         child: Text('See More'),
                         style: TextButton.styleFrom(
-                          foregroundColor: Color.fromRGBO(225, 247, 245, 1), // Mengatur warna teks
+                          foregroundColor: Color.fromRGBO(
+                              225, 247, 245, 1), // Mengatur warna teks
                         ),
                       ),
-
                     ],
                   )),
                 ),

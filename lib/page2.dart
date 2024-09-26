@@ -26,14 +26,14 @@ class page2 extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 50.0,
-              backgroundImage: AssetImage("assets/self.jpg"),
+              backgroundImage: AssetImage("assets/okta.jpg"),
             ),
             const SizedBox(height: 10),
             const Text(
               'Okta Haris',
               style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
                 color: Color.fromARGB(255, 26, 33, 48),
               ),
             ),
@@ -100,11 +100,22 @@ class page2 extends StatelessWidget {
                   ),
                   SizedBox(height: 8),
                   Text(
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                    '2021 - Current\n'
+                    'SMK Wikrama Student\n\n'
+                    '2019 - 2021\n'
+                    'SMP Negeri 1 Cigombong\n\n'
+                    '2013 - 2019\n'
+                    'SD Negeri Srogol 02',
+                    style: TextStyle(
+                      fontSize: 16, // Ukuran font, bisa disesuaikan
+                    ),
                   ),
                   SizedBox(height: 20),
                   Text(
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                    'In 2021, I focused on designing web and app interfaces. In 2022, I worked as a web app developer. Currently, in 2023, I am building apps.',
+                    style: TextStyle(
+                      fontSize: 16, // Ukuran font, bisa disesuaikan
+                    ),
                   ),
                 ],
               ),
@@ -113,8 +124,7 @@ class page2 extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 26, 33, 48),
-
+                color: const Color.fromARGB(255, 26, 33, 48),
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: [
                   BoxShadow(
@@ -181,8 +191,7 @@ class page2 extends StatelessWidget {
           LinearProgressIndicator(
             value: level,
             backgroundColor: Colors.grey[300],
-              color: const Color.fromARGB(255, 26, 33, 48),
-
+            color: const Color.fromARGB(255, 26, 33, 48),
           ),
         ],
       ),
