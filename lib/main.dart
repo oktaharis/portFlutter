@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'page2.dart';
+import 'page3.dart'; // Import Page3
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: home(),
+      home: Page3(), // Set Page3 as the initial page
     ));
 
 class home extends StatelessWidget {
